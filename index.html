@@ -129,14 +129,22 @@ fetch('data/apoyos.json')
 
     data.forEach(apoyo => {
 
-        L.marker([apoyo.lat, apoyo.lon])
-        .addTo(map)
-        .bindPopup(`
-            <b>${apoyo.codigo}</b><br>
-            Poste: ${apoyo.poste}<br>
-            Estructura: ${apoyo.estructura}<br>
-            Estado: ${apoyo.estado}
-        `);
+       L.circleMarker(
+    [apoyo.lat, apoyo.lon],
+    {
+        radius: 8,
+        color: colorEstado(apoyo.estado),
+        fillColor: colorEstado(apoyo.estado),
+        fillOpacity: 0.9
+    }
+)
+.addTo(map)
+.bindPopup(`
+    <b>${apoyo.codigo}</b><br>
+    Poste: ${apoyo.poste}<br>
+    Estructura: ${apoyo.estructura}<br>
+    Estado: ${apoyo.estado}
+`);
 
     });
 
