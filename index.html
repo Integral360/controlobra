@@ -127,6 +127,8 @@ fetch('data/apoyos.json')
 .then(response => response.json())
 .then(data => {
 
+    console.log("Apoyos cargados:", data.length);
+
     const puntos = [];
 
     let totalTerminados = 0;
