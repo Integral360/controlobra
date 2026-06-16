@@ -129,6 +129,11 @@ fetch('data/apoyos.json')
 
     const puntos = [];
 
+    let totalTerminados = 0;
+    let totalConstruccion = 0;
+    let totalPendientes = 0;
+    
+
     data.forEach(apoyo => {
 
         puntos.push([apoyo.lat, apoyo.lon]);
