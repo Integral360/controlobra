@@ -126,30 +126,35 @@ function colorEstado(estado){
 fetch('data/apoyos.json')
 .then(response => response.json())
 .then(data => {
-    
+
     const puntos = [];
+
     data.forEach(apoyo => {
-        
+
         puntos.push([apoyo.lat, apoyo.lon]);
-    
-       L.circleMarker(
-    [apoyo.lat, apoyo.lon],
-    {
-        radius: 8,
-        color: colorEstado(apoyo.estado),
-        fillColor: colorEstado(apoyo.estado),
-        fillOpacity: 0.9
-    }
-)
-.addTo(map)
-.bindPopup(`
-    <b>${apoyo.codigo}</b><br>
-    Poste: ${apoyo.poste}<br>
-    Estructura: ${apoyo.estructura}<br>
-    Estado: ${apoyo.estado}
-`);
+
+        L.circleMarker(
+            [apoyo.lat, apoyo.lon],
+            {
+                radius: 8,
+                color: colorEstado(apoyo.estado),
+                fillColor: colorEstado(apoyo.estado),
+                fillOpacity: 0.9
+            }
+        )
+        .addTo(map)
+        .bindPopup(`
+            <b>${apoyo.codigo}</b><br>
+            Poste: ${apoyo.poste}<br>
+            Estructura: ${apoyo.estructura}<br>
+            Estado: ${apoyo.estado}
+        `);
 
     });
+
+    if (puntos.length > 0) {
+        map.fitBounds(puntos, { padding: [40, 40] });
+    }
 
 })
 .catch(error => console.error(error));
