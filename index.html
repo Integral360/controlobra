@@ -138,6 +138,16 @@ fetch('data/apoyos.json')
 
         puntos.push([apoyo.lat, apoyo.lon]);
 
+        if(apoyo.estado === "Terminado"){
+            totalTerminados++;
+        }
+        else if(apoyo.estado === "Construccion"){
+            totalConstruccion++;
+        }
+        else{
+            totalPendientes++;
+        }
+
         L.circleMarker(
             [apoyo.lat, apoyo.lon],
             {
