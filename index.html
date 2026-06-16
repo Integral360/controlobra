@@ -167,6 +167,11 @@ fetch('data/apoyos.json')
 
     });
 
+    document.getElementById("totalApoyos").innerText = data.length;
+    document.getElementById("totalTerminados").innerText = totalTerminados;
+    document.getElementById("totalConstruccion").innerText = totalConstruccion;
+    document.getElementById("totalPendientes").innerText = totalPendientes;
+
     if (puntos.length > 0) {
         map.fitBounds(puntos, { padding: [40, 40] });
     }
