@@ -102,9 +102,25 @@ maxZoom:19
 }
 ).addTo(map);
 
-L.marker([0.825,-77.64])
-.addTo(map)
-.bindPopup("Primer apoyo");
+fetch('data/apoyos.json')
+.then(response => response.json())
+.then(data => {
+
+    data.forEach(apoyo => {
+
+        L.marker([apoyo.lat, apoyo.lon])
+        .addTo(map)
+        .bindPopup(`
+            <b>${apoyo.codigo}</b><br>
+            Poste: ${apoyo.poste}<br>
+            Estructura: ${apoyo.estructura}<br>
+            Estado: ${apoyo.estado}
+        `);
+
+    });
+
+})
+.catch(error => console.error(error));
 
 </script>
 
