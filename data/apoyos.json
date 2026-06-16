@@ -1,18 +1,1522 @@
 [
   {
-    "codigo":"0.328.205",
-    "lat":0.825,
-    "lon":-77.640,
-    "poste":"PFDV MT 12X510",
-    "estructura":"511",
-    "estado":"Terminado"
+    "codigo": "AP-0001",
+    "lat": 1.4548318,
+    "lon": -78.4291783,
+    "poste": "PFDV MT 12X510",
+    "estructura": "550/P560",
+    "estado": "Terminado"
   },
   {
-    "codigo":"0.327.204",
-    "lat":0.826,
-    "lon":-77.638,
-    "poste":"PFDV MT 12X510",
-    "estructura":"560/P550",
-    "estado":"Construccion"
+    "codigo": "AP-0002",
+    "lat": 1.4574992,
+    "lon": -78.4301992,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Construccion"
+  },
+  {
+    "codigo": "AP-0003",
+    "lat": 1.4524856,
+    "lon": -78.4256161,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0004",
+    "lat": 1.4541642,
+    "lon": -78.4283871,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0005",
+    "lat": 1.4560827,
+    "lon": -78.4328837,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Construccion"
+  },
+  {
+    "codigo": "AP-0006",
+    "lat": 1.4553617,
+    "lon": -78.4330892,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Terminado"
+  },
+  {
+    "codigo": "AP-0007",
+    "lat": 1.4528417,
+    "lon": -78.4355569,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0008",
+    "lat": 1.4533516,
+    "lon": -78.4348198,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-320",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0009",
+    "lat": 1.4521985,
+    "lon": -78.4342914,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Terminado"
+  },
+  {
+    "codigo": "AP-0010",
+    "lat": 1.4529752,
+    "lon": -78.434194,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-320",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0011",
+    "lat": 1.4570054,
+    "lon": -78.4330826,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0012",
+    "lat": 1.4534882,
+    "lon": -78.4317754,
+    "poste": "PFDV MT 12X510",
+    "estructura": "514/P710",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0013",
+    "lat": 1.454007,
+    "lon": -78.4325815,
+    "poste": "PFDV MT 12X510",
+    "estructura": "510",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0014",
+    "lat": 1.4541711,
+    "lon": -78.4296665,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0015",
+    "lat": 1.4692008,
+    "lon": -78.4278061,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0016",
+    "lat": 1.4684492,
+    "lon": -78.4274712,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-320",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0017",
+    "lat": 1.4677896,
+    "lon": -78.4271773,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-320",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0018",
+    "lat": 1.4545684,
+    "lon": -78.435986,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0019",
+    "lat": 1.4531927,
+    "lon": -78.4302783,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0020",
+    "lat": 1.4521944,
+    "lon": -78.430699,
+    "poste": "PFDV MT 12X510",
+    "estructura": "560",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0021",
+    "lat": 1.451327,
+    "lon": -78.4309515,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0022",
+    "lat": 1.4504596,
+    "lon": -78.4312039,
+    "poste": "PFDV MT 12X510",
+    "estructura": "560",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0023",
+    "lat": 1.4492474,
+    "lon": -78.4310859,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0024",
+    "lat": 1.4482581,
+    "lon": -78.4309895,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0025",
+    "lat": 1.4472688,
+    "lon": -78.4308932,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0026",
+    "lat": 1.446152,
+    "lon": -78.4308168,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0027",
+    "lat": 1.4451603,
+    "lon": -78.430749,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0028",
+    "lat": 1.4441685,
+    "lon": -78.4306811,
+    "poste": "PFDV MT 12X510",
+    "estructura": "560",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0029",
+    "lat": 1.5703017,
+    "lon": -78.4278008,
+    "poste": "PFDV MT 12X510",
+    "estructura": "",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0030",
+    "lat": 1.4834609,
+    "lon": -78.4338785,
+    "poste": "PFDV MT 12X510 X2",
+    "estructura": "LA-321X2",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0031",
+    "lat": 1.4826179,
+    "lon": -78.4317242,
+    "poste": "PFDV MT 12X510 X2",
+    "estructura": "RH-231",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0032",
+    "lat": 1.4577611,
+    "lon": -78.4300463,
+    "poste": "PFDV MT 12X510 X2",
+    "estructura": "RH-231/P710",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0033",
+    "lat": 1.4585185,
+    "lon": -78.4284289,
+    "poste": "PFDV MT 12X510 X2",
+    "estructura": "RH-231",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0034",
+    "lat": 1.46713,
+    "lon": -78.4268834,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-324/PLA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0035",
+    "lat": 1.4657288,
+    "lon": -78.4266515,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0036",
+    "lat": 1.4651791,
+    "lon": -78.4280442,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0037",
+    "lat": 1.4656516,
+    "lon": -78.4274107,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-320",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0038",
+    "lat": 1.4661176,
+    "lon": -78.4267858,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-324/PLA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0039",
+    "lat": 1.4430393,
+    "lon": -78.4310416,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0040",
+    "lat": 1.4421788,
+    "lon": -78.4313163,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0041",
+    "lat": 1.4413183,
+    "lon": -78.4315909,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0042",
+    "lat": 1.4183705,
+    "lon": -78.4358916,
+    "poste": "PFDV MT 12X510",
+    "estructura": "513\n701",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0043",
+    "lat": 1.4193825,
+    "lon": -78.4356212,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0044",
+    "lat": 1.4200692,
+    "lon": -78.4354676,
+    "poste": "PFDV MT 12X510",
+    "estructura": "513",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0045",
+    "lat": 1.420917,
+    "lon": -78.4353374,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0046",
+    "lat": 1.4404578,
+    "lon": -78.4318656,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0047",
+    "lat": 1.4394253,
+    "lon": -78.4321953,
+    "poste": "PFDV MT 12X510",
+    "estructura": "560",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0048",
+    "lat": 1.4385364,
+    "lon": -78.4323579,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0049",
+    "lat": 1.4375587,
+    "lon": -78.4325369,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0050",
+    "lat": 1.4365809,
+    "lon": -78.4327158,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0051",
+    "lat": 1.4336676,
+    "lon": -78.4330818,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0052",
+    "lat": 1.4327502,
+    "lon": -78.4331698,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0053",
+    "lat": 1.43175,
+    "lon": -78.4333247,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0054",
+    "lat": 1.4307476,
+    "lon": -78.4334832,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0055",
+    "lat": 1.429738,
+    "lon": -78.4336429,
+    "poste": "PFDV MT 12X510",
+    "estructura": "560",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0056",
+    "lat": 1.4261512,
+    "lon": -78.4348502,
+    "poste": "PFDV MT 12X510",
+    "estructura": "560",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0057",
+    "lat": 1.4249635,
+    "lon": -78.4346647,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0058",
+    "lat": 1.4239817,
+    "lon": -78.4345114,
+    "poste": "PFDV MT 12X510",
+    "estructura": "560",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0059",
+    "lat": 1.4226717,
+    "lon": -78.4349708,
+    "poste": "PFDV MT 12X510",
+    "estructura": "513",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0060",
+    "lat": 1.4217835,
+    "lon": -78.4351564,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0061",
+    "lat": 1.5680386,
+    "lon": -78.4277755,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0062",
+    "lat": 1.4542143,
+    "lon": -78.4350331,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-320",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0063",
+    "lat": 1.4594803,
+    "lon": -78.4316968,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0064",
+    "lat": 1.4769472,
+    "lon": -78.4405564,
+    "poste": "PFDV MT 12X510",
+    "estructura": "510",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0065",
+    "lat": 1.4763737,
+    "lon": -78.4413631,
+    "poste": "PFDV MT 12X510",
+    "estructura": "510",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0066",
+    "lat": 1.4793014,
+    "lon": -78.4390969,
+    "poste": "PFDV MT 12X510",
+    "estructura": "510",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0067",
+    "lat": 1.4784111,
+    "lon": -78.4394233,
+    "poste": "PFDV MT 12X510",
+    "estructura": "510",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0068",
+    "lat": 1.4829642,
+    "lon": -78.4337459,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-320",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0069",
+    "lat": 1.4809404,
+    "lon": -78.4348514,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0070",
+    "lat": 1.4822223,
+    "lon": -78.4335477,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-324",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0071",
+    "lat": 1.4818511,
+    "lon": -78.4329374,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321X2",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0072",
+    "lat": 1.4851169,
+    "lon": -78.4281582,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0073",
+    "lat": 1.4840606,
+    "lon": -78.4298315,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0074",
+    "lat": 1.4847121,
+    "lon": -78.4193127,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0075",
+    "lat": 1.4832552,
+    "lon": -78.4202821,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0076",
+    "lat": 1.4788986,
+    "lon": -78.4200357,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0077",
+    "lat": 1.4795202,
+    "lon": -78.4199515,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-320",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0078",
+    "lat": 1.4809727,
+    "lon": -78.419929,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0079",
+    "lat": 1.4817817,
+    "lon": -78.4200107,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0080",
+    "lat": 1.4825907,
+    "lon": -78.4200924,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0081",
+    "lat": 1.4862619,
+    "lon": -78.4177461,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0082",
+    "lat": 1.4858331,
+    "lon": -78.4183067,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-320",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0083",
+    "lat": 1.4880349,
+    "lon": -78.4190372,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0084",
+    "lat": 1.4887011,
+    "lon": -78.4204899,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0085",
+    "lat": 1.4895919,
+    "lon": -78.4209075,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0086",
+    "lat": 1.4911201,
+    "lon": -78.4217638,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0087",
+    "lat": 1.4897348,
+    "lon": -78.4196639,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0088",
+    "lat": 1.4899617,
+    "lon": -78.4205258,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-320",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0089",
+    "lat": 1.4847347,
+    "lon": -78.4333472,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0090",
+    "lat": 1.4841015,
+    "lon": -78.432863,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-324",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0091",
+    "lat": 1.4838668,
+    "lon": -78.4332351,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-320",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0092",
+    "lat": 1.489473,
+    "lon": -78.4227977,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0093",
+    "lat": 1.480393,
+    "lon": -78.4304156,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0094",
+    "lat": 1.4882741,
+    "lon": -78.4239707,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0095",
+    "lat": 1.4875016,
+    "lon": -78.4248311,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0096",
+    "lat": 1.4869293,
+    "lon": -78.425526,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0097",
+    "lat": 1.486357,
+    "lon": -78.4262209,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0098",
+    "lat": 1.4857847,
+    "lon": -78.4269159,
+    "poste": "PFDV MT 12X510",
+    "estructura": "560/P550",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0099",
+    "lat": 1.4828717,
+    "lon": -78.430959,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0100",
+    "lat": 1.4846368,
+    "lon": -78.4289188,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0101",
+    "lat": 1.4815803,
+    "lon": -78.43327,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-327",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0102",
+    "lat": 1.4810389,
+    "lon": -78.434043,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-327",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0103",
+    "lat": 1.4878826,
+    "lon": -78.4201061,
+    "poste": "PFDV MT 12X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0104",
+    "lat": 1.4901888,
+    "lon": -78.4213877,
+    "poste": "PFDV MT 12X510",
+    "estructura": "LA-321x2",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0105",
+    "lat": 1.4899396,
+    "lon": -78.4218786,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0106",
+    "lat": 1.4889619,
+    "lon": -78.4233738,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0107",
+    "lat": 1.48805,
+    "lon": -78.4241652,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0108",
+    "lat": 1.4856857,
+    "lon": -78.4272572,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0109",
+    "lat": 1.4834845,
+    "lon": -78.4307443,
+    "poste": "PFDV MT 12X510",
+    "estructura": "560",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0110",
+    "lat": 1.4821474,
+    "lon": -78.4312128,
+    "poste": "PFDV MT 12X510",
+    "estructura": "550/P560",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0111",
+    "lat": 1.4815589,
+    "lon": -78.4303334,
+    "poste": "PFDV MT 12X510",
+    "estructura": "560",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0112",
+    "lat": 1.4806909,
+    "lon": -78.430056,
+    "poste": "PFDV MT 12X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0113",
+    "lat": 1.4783945,
+    "lon": -78.429412,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0114",
+    "lat": 1.4752662,
+    "lon": -78.4285265,
+    "poste": "PFDV MT 12X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0115",
+    "lat": 1.4741911,
+    "lon": -78.4288421,
+    "poste": "PFDV MT 12X510",
+    "estructura": "LA-321X2",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0116",
+    "lat": 1.4700953,
+    "lon": -78.4274997,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0117",
+    "lat": 1.4675991,
+    "lon": -78.4260836,
+    "poste": "PFDV MT 12X510",
+    "estructura": "LA-321x3",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0118",
+    "lat": 1.4635224,
+    "lon": -78.4256213,
+    "poste": "PFDV MT 12X510",
+    "estructura": "560",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0119",
+    "lat": 1.4607405,
+    "lon": -78.4271601,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0120",
+    "lat": 1.4599818,
+    "lon": -78.4276481,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0121",
+    "lat": 1.4591058,
+    "lon": -78.4282114,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0122",
+    "lat": 1.4538613,
+    "lon": -78.434083,
+    "poste": "PFDV MT 12X510",
+    "estructura": "LA-321X3",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0123",
+    "lat": 1.4544931,
+    "lon": -78.4333369,
+    "poste": "PFDV MT 12X510",
+    "estructura": "550/P514X2",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0124",
+    "lat": 1.4569597,
+    "lon": -78.4326336,
+    "poste": "PFDV MT 12X510",
+    "estructura": "LA-321x2",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0125",
+    "lat": 1.4567253,
+    "lon": -78.4315573,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0126",
+    "lat": 1.4564963,
+    "lon": -78.4305057,
+    "poste": "PFDV MT 12X510",
+    "estructura": "550/P560",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0127",
+    "lat": 1.4527927,
+    "lon": -78.4243044,
+    "poste": "PFDV MT 12X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0128",
+    "lat": 1.4521721,
+    "lon": -78.4269543,
+    "poste": "PFDV MT 12X510",
+    "estructura": "550x2",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0129",
+    "lat": 1.4534924,
+    "lon": -78.4275905,
+    "poste": "PFDV MT 12X510",
+    "estructura": "560\n710",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0130",
+    "lat": 1.4870731,
+    "lon": -78.4197066,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0131",
+    "lat": 1.4862637,
+    "lon": -78.4193071,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0132",
+    "lat": 1.4853957,
+    "lon": -78.4188787,
+    "poste": "PFDV MT 12X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0133",
+    "lat": 1.4839507,
+    "lon": -78.4197964,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0134",
+    "lat": 1.4807578,
+    "lon": -78.4374764,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0135",
+    "lat": 1.4812985,
+    "lon": -78.4367568,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0136",
+    "lat": 1.4818391,
+    "lon": -78.4360372,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0137",
+    "lat": 1.4823797,
+    "lon": -78.4353177,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0138",
+    "lat": 1.4829204,
+    "lon": -78.4345981,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0139",
+    "lat": 1.4976228,
+    "lon": -78.4253754,
+    "poste": "PFDV MT 12X510",
+    "estructura": "510",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0140",
+    "lat": 1.4968905,
+    "lon": -78.4252325,
+    "poste": "PFDV MT 12X510",
+    "estructura": "515",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0141",
+    "lat": 1.4946582,
+    "lon": -78.425298,
+    "poste": "PFDV MT 12X510",
+    "estructura": "514X2",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0142",
+    "lat": 1.4943706,
+    "lon": -78.4266724,
+    "poste": "PFDV MT 12X510",
+    "estructura": "550/P514/P710",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0143",
+    "lat": 1.492013,
+    "lon": -78.4277798,
+    "poste": "PFDV MT 12X510",
+    "estructura": "550X2",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0144",
+    "lat": 1.4892547,
+    "lon": -78.426391,
+    "poste": "PFDV MT 12X510",
+    "estructura": "550X2",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0145",
+    "lat": 1.4757251,
+    "lon": -78.4422754,
+    "poste": "PFDV MT 12X510",
+    "estructura": "514/P710",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0146",
+    "lat": 1.4775207,
+    "lon": -78.4397498,
+    "poste": "PFDV MT 12X510",
+    "estructura": "515",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0147",
+    "lat": 1.4801497,
+    "lon": -78.4387858,
+    "poste": "PFDV MT 12X510",
+    "estructura": "550/P514/P710",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0148",
+    "lat": 1.4803477,
+    "lon": -78.4380222,
+    "poste": "PFDV MT 12X510",
+    "estructura": "560",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0149",
+    "lat": 1.4802361,
+    "lon": -78.4198545,
+    "poste": "PFDV MT 12X510",
+    "estructura": "550/P710/P514",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0150",
+    "lat": 1.4833998,
+    "lon": -78.4201742,
+    "poste": "PFDV MT 12X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0151",
+    "lat": 1.4566617,
+    "lon": -78.4328495,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0152",
+    "lat": 1.4739827,
+    "lon": -78.4284651,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0153",
+    "lat": 1.4763954,
+    "lon": -78.4288462,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0154",
+    "lat": 1.4773515,
+    "lon": -78.4291168,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0155",
+    "lat": 1.479572,
+    "lon": -78.4297422,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0156",
+    "lat": 1.4588018,
+    "lon": -78.4311587,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-327",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0157",
+    "lat": 1.4590988,
+    "lon": -78.4300807,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0158",
+    "lat": 1.4580416,
+    "lon": -78.4303244,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321/PLA-320",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0159",
+    "lat": 1.461785,
+    "lon": -78.4265828,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0160",
+    "lat": 1.4626536,
+    "lon": -78.4261024,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0161",
+    "lat": 1.464546,
+    "lon": -78.4257374,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0162",
+    "lat": 1.4655338,
+    "lon": -78.4258494,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0163",
+    "lat": 1.4665215,
+    "lon": -78.4259614,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0164",
+    "lat": 1.4685261,
+    "lon": -78.4266096,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0165",
+    "lat": 1.4693107,
+    "lon": -78.4270546,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0166",
+    "lat": 1.4707578,
+    "lon": -78.4277168,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0167",
+    "lat": 1.4716161,
+    "lon": -78.4279982,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0168",
+    "lat": 1.4724744,
+    "lon": -78.4282795,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0169",
+    "lat": 1.4733328,
+    "lon": -78.4285608,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0170",
+    "lat": 1.4872164,
+    "lon": -78.4300933,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0171",
+    "lat": 1.4873607,
+    "lon": -78.4296967,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-320",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0172",
+    "lat": 1.4876218,
+    "lon": -78.4289793,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-327",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0173",
+    "lat": 1.4877837,
+    "lon": -78.4280929,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-320",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0174",
+    "lat": 1.4887099,
+    "lon": -78.4267315,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0175",
+    "lat": 1.4879451,
+    "lon": -78.4272097,
+    "poste": "PFDV MT 12X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0176",
+    "lat": 1.4935534,
+    "lon": -78.4270562,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0177",
+    "lat": 1.4927363,
+    "lon": -78.42744,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0178",
+    "lat": 1.4950439,
+    "lon": -78.4259982,
+    "poste": "PFDV_BT_8X510",
+    "estructura": "LA-321",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0179",
+    "lat": 1.4983959,
+    "lon": -78.4254573,
+    "poste": "PFDV MT 12X510",
+    "estructura": "510",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0180",
+    "lat": 1.4992945,
+    "lon": -78.4255524,
+    "poste": "PFDV MT 12X510",
+    "estructura": "510",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0181",
+    "lat": 1.5001979,
+    "lon": -78.4255777,
+    "poste": "PFDV MT 12X510",
+    "estructura": "510",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0182",
+    "lat": 1.5023128,
+    "lon": -78.4247861,
+    "poste": "PFDV MT 12X510",
+    "estructura": "514/P710",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0183",
+    "lat": 1.5016033,
+    "lon": -78.4251813,
+    "poste": "PFDV MT 12X510",
+    "estructura": "510",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0184",
+    "lat": 1.5008586,
+    "lon": -78.4255961,
+    "poste": "PFDV MT 12X510",
+    "estructura": "515",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0185",
+    "lat": 1.4945005,
+    "lon": -78.426053,
+    "poste": "PFDV MT 12X510",
+    "estructura": "510",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0186",
+    "lat": 1.4912874,
+    "lon": -78.4274144,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0187",
+    "lat": 1.4902393,
+    "lon": -78.4268867,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0188",
+    "lat": 1.4868706,
+    "lon": -78.4270636,
+    "poste": "PFDV MT 12X510",
+    "estructura": "511",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0189",
+    "lat": 1.4961036,
+    "lon": -78.4252556,
+    "poste": "PFDV MT 12X510",
+    "estructura": "510",
+    "estado": "Pendiente"
+  },
+  {
+    "codigo": "AP-0190",
+    "lat": 1.4953809,
+    "lon": -78.4252768,
+    "poste": "PFDV MT 12X510",
+    "estructura": "510",
+    "estado": "Pendiente"
   }
 ]
