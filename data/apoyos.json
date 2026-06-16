@@ -5,7 +5,7 @@
     "lon":-77.640,
     "poste":"PFDV MT 12X510",
     "estructura":"511",
-    "estado":"Pendiente"
+    "estado":"Terminado"
   },
   {
     "codigo":"0.327.204",
@@ -13,6 +13,6 @@
     "lon":-77.638,
     "poste":"PFDV MT 12X510",
     "estructura":"560/P550",
-    "estado":"Pendiente"
+    "estado":"Construccion"
   }
 ]
