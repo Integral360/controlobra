@@ -147,7 +147,15 @@ function convertirCSV(texto) {
     return datos;
 }
     
-fetch('data/apoyos.json')
+Promise.all([
+    fetch('data/apoyos.json').then(r => r.json()),
+    fetch(urlEstados).then(r => r.text())
+])
+.then(([data, csv]) => {
+
+    const estados = convertirCSV(csv);
+
+    
 .then(response => response.json())
 .then(data => {
 
@@ -161,6 +169,12 @@ fetch('data/apoyos.json')
     
 
     data.forEach(apoyo => {
+
+        const estadoSheet = estados[apoyo.codigo];
+
+        if (estadoSheet && estadoSheet.estado) {
+            apoyo.estado = estadoSheet.estado;
+        }
 
         puntos.push([apoyo.lat, apoyo.lon]);
 
