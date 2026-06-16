@@ -1,11 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Centro de Control de Obra</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Control de Obra - Integral360</title>
+
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#f4f6f9;
+}
+
+.header{
+background:#0f172a;
+color:white;
+padding:20px;
+}
+
+.header h1{
+margin:0;
+}
+
+.cards{
+display:flex;
+gap:15px;
+padding:15px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:15px;
+border-radius:12px;
+box-shadow:0 2px 8px rgba(0,0,0,.1);
+min-width:180px;
+}
+
+.card h2{
+margin:0;
+font-size:28px;
+}
+
+#map{
+height:75vh;
+margin:15px;
+border-radius:12px;
+}
+
+</style>
 </head>
+
 <body>
-    <h1>Centro de Control Remoto de Obra</h1>
-    <h2>Integral360</h2>
-    <p>Proyecto 6</p>
+
+<div class="header">
+<h1>Centro de Control Remoto de Obra</h1>
+<p>Proyecto 6</p>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h2>190</h2>
+Apoyos
+</div>
+
+<div class="card">
+<h2>0</h2>
+Terminados
+</div>
+
+<div class="card">
+<h2>0</h2>
+En construcción
+</div>
+
+<div class="card">
+<h2>190</h2>
+Pendientes
+</div>
+
+</div>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+
+var map = L.map('map').setView([0.8,-77.6],11);
+
+L.tileLayer(
+'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+{
+maxZoom:19
+}
+).addTo(map);
+
+L.marker([0.825,-77.64])
+.addTo(map)
+.bindPopup("Primer apoyo");
+
+</script>
+
 </body>
 </html>
