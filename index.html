@@ -155,10 +155,6 @@ Promise.all([
 
     const estados = convertirCSV(csv);
 
-    
-.then(response => response.json())
-.then(data => {
-
     console.log("Apoyos cargados:", data.length);
 
     const puntos = [];
@@ -166,7 +162,6 @@ Promise.all([
     let totalTerminados = 0;
     let totalConstruccion = 0;
     let totalPendientes = 0;
-    
 
     data.forEach(apoyo => {
 
