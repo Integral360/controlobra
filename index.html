@@ -169,10 +169,12 @@ Promise.all([
 
         const estadoSheet = estados[apoyo.codigo];
 
+        apoyo.estado = "Pendiente";
+
         if (estadoSheet && estadoSheet.estado) {
             apoyo.estado = estadoSheet.estado;
         }
-
+        
         puntos.push([apoyo.lat, apoyo.lon]);
 
         if(apoyo.estado === "Terminado"){
