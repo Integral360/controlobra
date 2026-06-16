@@ -1,0 +1,18 @@
+[
+  {
+    "codigo":"0.328.205",
+    "lat":0.825,
+    "lon":-77.640,
+    "poste":"PFDV MT 12X510",
+    "estructura":"511",
+    "estado":"Pendiente"
+  },
+  {
+    "codigo":"0.327.204",
+    "lat":0.826,
+    "lon":-77.638,
+    "poste":"PFDV MT 12X510",
+    "estructura":"560/P550",
+    "estado":"Pendiente"
+  }
+]
