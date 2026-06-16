@@ -102,6 +102,27 @@ maxZoom:19
 }
 ).addTo(map);
 
+function colorEstado(estado){
+
+    switch(estado){
+
+        case "Terminado":
+            return "green";
+
+        case "Construccion":
+            return "orange";
+
+        case "Energizado":
+            return "blue";
+
+        case "Novedad":
+            return "red";
+
+        default:
+            return "gray";
+    }
+}
+    
 fetch('data/apoyos.json')
 .then(response => response.json())
 .then(data => {
