@@ -126,9 +126,12 @@ function colorEstado(estado){
 fetch('data/apoyos.json')
 .then(response => response.json())
 .then(data => {
-
+    
+    const puntos = [];
     data.forEach(apoyo => {
-
+        
+        puntos.push([apoyo.lat, apoyo.lon]);
+    
        L.circleMarker(
     [apoyo.lat, apoyo.lon],
     {
