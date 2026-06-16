@@ -123,7 +123,29 @@ function colorEstado(estado){
     }
 }
 
-const urlEstados = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxTVh-mUt0_Qhbl4EEd3HR-kf0Z_1SDzNmrb3pFJtRCHP7KWJr0oGToKi_ARgx5WxkbPHlIlBGjk8r/pub?gid=0&single=true&output=csv";    
+const urlEstados = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxTVh-mUt0_Qhbl4EEd3HR-kf0Z_1SDzNmrb3pFJtRCHP7KWJr0oGToKi_ARgx5WxkbPHlIlBGjk8r/pub?gid=0&single=true&output=csv";
+
+function convertirCSV(texto) {
+    const lineas = texto.trim().split("\n");
+    const encabezados = lineas[0].split(",").map(e => e.trim());
+
+    const datos = {};
+
+    for (let i = 1; i < lineas.length; i++) {
+        const valores = lineas[i].split(",").map(v => v.trim());
+
+        const fila = {};
+        encabezados.forEach((encabezado, index) => {
+            fila[encabezado] = valores[index];
+        });
+
+        if (fila.codigo) {
+            datos[fila.codigo] = fila;
+        }
+    }
+
+    return datos;
+}
     
 fetch('data/apoyos.json')
 .then(response => response.json())
